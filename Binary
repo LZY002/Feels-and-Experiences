@@ -1,0 +1,8 @@
+1 负数的表示就是其正数的补码表示
+2 System.out.println(Integer.toBinaryString(a)); //二进制
+  System.out.println(Integer.toHexString(a)); //十六进制
+  System.out.println(Long.toBinaryString(a)); //
+  System.out.println(Long.toHexString(a)); //
+3 二进制可以精确表示2的某次方
+4  由于对于浮点数的精度损失，对于浮点数计算和比较大小，用BigDecimal这个类来计算，但是效率很低
+5  UTF-16 月 UTF-32 与ASCII不兼容，有字节顺序问题 UTF-8 使用可变字节长度 
